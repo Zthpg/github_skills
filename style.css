@@ -1,0 +1,161 @@
+@import url(https://fonts.googleapis.com/css2?family=Monserrat&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+header{
+    height: 300px;
+    background-color: rgb(202, 202, 202);
+}
+.contenedor, .navbar{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.navbar {
+  padding: 20px 0;
+}
+
+.navbar a h4{
+  display: inline-block;
+  font-size: 18px;
+  color: #000000;
+}
+.contenedor h1{
+  padding: 0px 0;
+}
+.contenedor p{
+    padding: 20px 0;
+    margin:  15px 0;
+    color: bold #383636;
+    font-size: 20px;
+    max-width: 550px;
+}
+
+.contenedor a{
+    color: #ffffff;
+    background-color: green;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+.text-box h2{
+    padding: 15px 0;
+}
+
+.text-box a{
+    padding: 15px;
+    color: hwb(214 17% 11%);
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0% auto; 
+    padding: -5px;
+  }
+  
+  .wrapper > div {
+    border: 2px solid rgb(207, 203, 198);
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 1em;
+    color: rgb(63, 63, 63); ;
+
+  }
+  .wrapper a{
+    color: hwb(214 17% 11%);
+    padding: 5px;
+  }
+  .wrapper p {
+    font-size:  15px;
+    margin: -15px;
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .one {
+    grid-column: 1 ;
+    grid-row: 1;
+  }
+  .two {
+    grid-column: 2 ;
+    grid-row: 1 ;
+  }
+  .three {
+    grid-column: 3 ;
+    grid-row: 1 ;
+  }
+  .four {
+    grid-column:  1 ;
+    grid-row: 2;
+  }
+  .five {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .six {
+    grid-column: 3;
+    grid-row: 2;
+  }
+
+  .footer{
+    display: flex;
+    padding: 25px;
+  }
+  .footer a, p{
+    padding: 15px;
+  }
+  .footer hr{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .cat{
+    top: 50px;
+    position: absolute;
+    float: right;
+    right: 10%;
+    padding: 15px;
+  }
+  .contaier-box{
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .guia{
+    display: flex;
+    border: 2px solid rgb(207, 203, 198);
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 1em;
+    color: rgb(63, 63, 63); ;
+  }
+  .guia a{
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    color: #ffffff;
+    background-color: grey;
+  }
+  .guia h2{
+    color: black;
+    padding: 10px 50px;
+  }
+  @media (max-width: 891px ){
+    .contenedor p{
+      font-size: 20px;
+      max-width: 200px;
+  }
+    .cat{
+      right: 5px;
+      margin-right: 0px;
+      width: 250px;
+    }
+  }
